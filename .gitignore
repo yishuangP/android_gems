@@ -27,8 +27,8 @@ local.properties
 # Native library (built from libs/stable-diffusion.cpp)
 app/src/main/jniLibs/
 
-# stable-diffusion.cpp build artifacts
-libs/stable-diffusion.cpp/build-android/
+# stable-diffusion.cpp cloned repo (rebuilt from source per README)
+libs/stable-diffusion.cpp/
 
 # OS files
 .DS_Store
