@@ -22,6 +22,14 @@ The app shows a side-by-side comparison of direct generation vs the GEMS agent l
 
 The GEMS agent triggered the **landscape** skill, which enhanced the prompt with detailed instructions about atmospheric depth, natural lighting, and composition. The GEMS-enhanced output shows a mountain scene with a lake reflection, wildflowers, and dramatic sky — significantly more detailed than the direct generation.
 
+### Example: "a girl waiting at a train station at sunset with anime style"
+
+| Direct Generation | GEMS Output |
+|---|---|
+| ![Direct](docs/images/direct_shinkai_train_station.png) | ![GEMS](docs/images/gems_shinkai_train_station.png) |
+
+The GEMS agent triggered the **anime (Makoto Shinkai)** skill, which enhanced the prompt with Shinkai's signature cinematic details — volumetric god rays, dramatic cumulonimbus clouds transitioning from orange to magenta, lens flare from the setting sun, hyper-detailed station architecture, and wet platform reflections. The GEMS-enhanced output captures the breathtaking photorealistic-meets-anime look of films like Your Name.
+
 ## Stack
 
 | Component | Implementation |
@@ -269,11 +277,11 @@ Or just tap the **Android GEMS** icon on your phone.
 - **Prompt field** — pre-filled with a default prompt, edit as you like
 - **Image gen steps** — 1 (fast, ~15s) / 2 (balanced, ~30s) / 4 (quality, ~60s)
 - **GEMS iterations slider** — how many refine-and-regenerate cycles (1-5)
-- **Run Comparison** — runs direct generation and GEMS agent loop side by side
+- **Run Android GEMS** — runs direct generation and GEMS agent loop side by side
 - **Gemma 4 Demo** — test the LLM with streaming text output
 - **Direct Image Gen Demo** — test image generation standalone
 
-### Run Comparison
+### Run Android GEMS
 
 Shows:
 - **Direct Generation** — baseline image from your prompt
